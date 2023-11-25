@@ -61,10 +61,10 @@ int main(int argc, char* args[])
 	bool quit = false;
 	while (!quit)
 	{
-		float radius = 1.0f;
-		float lightSpeed = 2.0f;
-		lightPos.x = sin(SDL_GetTicks() / 1000.0f * lightSpeed);
-		lightPos.z = sin(SDL_GetTicks() / 1000.0f * lightSpeed);
+		//float radius = 1.0f;
+		//float lightSpeed = 2.0f;
+		//lightPos.x = sin(SDL_GetTicks() / 1000.0f * lightSpeed);
+		//lightPos.z = sin(SDL_GetTicks() / 1000.0f * lightSpeed);
 
 
 		// per-frame time logic
